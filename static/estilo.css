@@ -26,6 +26,7 @@ body{
 #portrait img{
     display: block;
     height: 28%;
+    max-height: 200px;
     margin: auto;
     border-radius: 50%;
     border: 3px black solid;
