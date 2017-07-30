@@ -8,6 +8,7 @@ body{
 }
 
 .container{
+    display: inline-flex;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -72,7 +73,7 @@ ul{
     left: 0;
     text-indent: -4.5em;
     width: 100%;
-    display: table-cell block;
+    display: table-cell inline-flex;
     text-align: center;
     font-size: 17px;
     padding: 0.5% 0 0 0;
@@ -88,7 +89,7 @@ ul{
 }
 
 .networks img{
-    display: inline;
+    display: inline-flex;
     width: 9%;
     max-width: 50%;
     margin: auto;
@@ -108,5 +109,5 @@ a{
 }
 
 #labra{
-    color: black;   
+    color: black;
 }
