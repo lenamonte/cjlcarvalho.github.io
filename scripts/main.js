@@ -8,13 +8,13 @@ const setActualAge = () => {
 
 // controlling the display of some items
 const displayItems = () => {
-    $('.titulo').toArray().forEach((item) => {
-        $(item).click((event) => {
-            $('.itens').toArray().forEach((elemento) => {
-                if($(elemento).parent()[0] === $(item).parent()[0])
-                    $(elemento).toggle('show');
-                else if($(elemento).is(':visible'))
-                    $(elemento).hide();
+    $('.titulo').toArray().forEach((titulo) => {
+        $(titulo).click((event) => {
+            $('.itens').toArray().forEach((item) => {
+                if($(item).parent()[0] === $(titulo).parent()[0])
+                    $(item).toggle('show');
+                else if($(item).is(':visible'))
+                    $(item).hide();
             });
         });
     });
